@@ -17,6 +17,31 @@ export default function HeroSection({ onExplore, onRegister }) {
           <Sparkles className="w-3.5 h-3.5" />
           <span>GEHU ANNUAL TECH FESTIVAL • 2026 EDITION</span>
         </div>
+        {/* Joint Organizational Logos Header */}
+        <div className="flex items-center justify-center space-x-4 mb-6">
+          {/* GEHU Logo */}
+          <div className="p-2 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md shadow-lg shadow-cyan-500/5 hover:border-cyan-500/30 transition-all duration-300">
+            <img 
+              src="/gehu-logo.png" 
+              alt="GEHU Logo" 
+              className="h-10 sm:h-12 w-auto object-contain filter drop-shadow-md"
+              onError={(e) => { e.target.style.display = 'none'; }}
+            />
+          </div>
+
+  {/* Divider Symbol */}
+  <span className="text-cyan-400 font-mono text-xl font-bold opacity-60">×</span>
+
+  {/* Tech Geeks Logo */}
+  <div className="p-2 rounded-2xl bg-white/5 border border-white/10 backdrop-blur-md shadow-lg shadow-violet-500/5 hover:border-violet-500/30 transition-all duration-300">
+    <img 
+      src="/tech-geeks-logo.png" 
+      alt="Tech Geeks Logo" 
+      className="h-10 sm:h-12 w-auto object-contain filter drop-shadow-md"
+      onError={(e) => { e.target.style.display = 'none'; }}
+    />
+  </div>
+</div>
 
         {/* Hero Title */}
         <h1 className="text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight text-white mb-6">
