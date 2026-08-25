@@ -3,7 +3,7 @@ import GalleryGrid from '../components/gallery/MasonryGrid';
 
 export default function GalleryPage() {
   const photos = [
-    { url: '/pic1.png', caption: 'Inauguration Keynote 2025', edition: 'NIRVAN 2025' },
+    { url: 'https://images.unsplash.com/photo-1540575467063-178a50c2df87?w=80', caption: 'Inauguration Keynote 2025', edition: 'NIRVAN 2025' },
     { url: 'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800', caption: 'CodeForge Overnight Hackathon', edition: 'NIRVAN 2025' },
     { url: 'https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800', caption: 'Valorant Tournament Arena', edition: 'NIRVAN 2025' },
     { url: 'https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800', caption: 'Quantum AI Workshop Lab', edition: 'NIRVAN 2025' },
